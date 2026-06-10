@@ -1,0 +1,41 @@
+<<<<<<< Updated upstream
+=======
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Top 10 US National Parks</title>
+	<link
+		rel="stylesheet"
+		href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+		integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+		crossorigin=""
+	>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<main class="layout">
+		<header class="header">
+			<h1>Top 10 Most Popular US National Parks</h1>
+			<p>Sources: Data/Top10NP.json + Data/NP_NL.xlsx</p>
+		</header>
+		<section class="map-grid" aria-label="Dual map view of top national parks">
+			<div id="map2" aria-label="Secondary map showing the same park dataset on the same basemap"></div>
+			<div id="map" aria-label="Primary map showing top 10 most popular US national parks"></div>
+		</section>
+		<section id="summary" class="summary" aria-live="polite"></section>
+	</main>
+
+	<script
+		src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+		integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+		crossorigin=""
+	></script>
+	<script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+	<script src="https://unpkg.com/shpjs@latest/dist/shp.min.js"></script>
+	<script src="scriptNL.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
+>>>>>>> Stashed changes
